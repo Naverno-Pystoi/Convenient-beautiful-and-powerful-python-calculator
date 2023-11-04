@@ -1,8 +1,8 @@
 while True:
-    q = input("+ | - | * | / | Выйти из цикла - 1|: ")
+    q = input("+ | - | * | / | % | ^ | Выйти из цикла - 1|: ")
 
     if q == '1':
-        pass
+        break
     else:
         pass
 
@@ -17,3 +17,7 @@ while True:
         print(a*b)
     elif q == '/':
         print(q/b)
+    elif q == '%':
+        print(a%b)
+    elif q == '^':
+        print(a**b)
